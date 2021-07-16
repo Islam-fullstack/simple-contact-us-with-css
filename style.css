@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.background{
+    background: url(look.com.ua-69087.jpg) center no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.menu-bar{
+    height: 100px;
+    min-width: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.menu-bar ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bar ul li{
+    /* padding: 39px 30px; */
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 3px;
+    
+}
+
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 39px 30px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.menu-bar ul li:last-child{
+    margin-right: 0px;
+}
+
+.menu-bar ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+#contact{
+    min-height: 100vh;
+    /* border: 2px dashed black; */
+    color: dimgrey;
+    background-color: rgb(190, 190, 190);
+}
+
+.contact__header{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#contact h1{
+    margin: 20px 0 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+#contact .contact-bottom{
+    width: 15%;
+    margin: 0 auto;
+}
+
+.soc-icons{
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.soc-icons .icons-item{
+    margin: 0 20px;
+    text-align: center;
+    
+}
+
+.soc-icons .icons-item a{
+    display: flex;
+    text-decoration: none;
+    border: 2px solid grey;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 50%;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.soc-icons .icons-item:hover a{
+    border: 2px dashed grey;
+}
+
+.soc-icons .icons-item:hover hr{
+    width: 50%;
+    backgroud-color: green;
+}
+
+.soc-icons .icons-item i{
+    
+    text-align: center;
+}
+
+.soc-icons .icons-item a.telegram:hover{
+    color: #1b8ec9;
+}
+
+.soc-icons .icons-item a.instagram:hover{
+    color: rgb(204, 95, 114);
+}
+
+.soc-icons .icons-item a.facebook:hover{
+    color: #4267B2;
+}
+
+.soc-icons .icons-item h4{
+    letter-spacing: 1.5px;
+    color: #555;
+    text-transform: uppercase;
+    margin: 30px 0 10px;
+}
+
+.soc-icons .icons-item hr{
+    width: 25%;
+    margin: 10px auto 20px; 
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+
+
+.soc-icons .icons-item p{
+    line-height: 1.5;
+    
+}
+
